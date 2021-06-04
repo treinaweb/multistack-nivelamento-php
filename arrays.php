@@ -24,6 +24,20 @@ $cursos = [
         'nome' => 'JS',
         'versao' => '2021'
     ],
+    3 => [
+        'nome' => 'React',
+        'versao' => '2021'
+    ],
 ];
 
-var_dump($cursos[1]['versao']);
+//var_dump($cursos[1]['versao']);
+
+// for ($contador=0; $contador < count($cursos); $contador++) { 
+//     echo $cursos[$contador]['nome'] . '<br>';
+// }
+
+foreach ($cursos as $curso) {
+    echo $curso['nome'] . ' ';
+    echo $curso['versao'] . '<br>';
+}
+
