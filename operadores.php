@@ -17,19 +17,31 @@
 // echo '<br>';
 // echo 2 ** 4;
 
-$numero1 = 10;
-$numero2 = "10";
+// Operadores de comparação
+// $numero1 = 10;
+// $numero2 = "10";
 
-var_dump($numero1 < $numero2);
-var_dump($numero1 <= $numero2);
+// var_dump($numero1 < $numero2);
+// var_dump($numero1 <= $numero2);
 
-var_dump($numero1 > $numero2);
-var_dump($numero1 >= $numero2);
+// var_dump($numero1 > $numero2);
+// var_dump($numero1 >= $numero2);
 
-var_dump($numero1 == $numero2);
-var_dump($numero1 === $numero2);
+// var_dump($numero1 == $numero2);
+// var_dump($numero1 === $numero2);
 
-var_dump($numero1 != $numero2);
-var_dump($numero1 !== $numero2);
+// var_dump($numero1 != $numero2);
+// var_dump($numero1 !== $numero2);
 
+// operadores lógicos
+
+$idade = -117;
+
+var_dump( ($idade > 18) && ($idade < 65) );
+
+var_dump( ($idade > 18) || ($idade < 65) );
+
+$casado = false;
+
+var_dump(!$casado);
 
